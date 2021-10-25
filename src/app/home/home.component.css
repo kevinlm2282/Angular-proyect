@@ -1,0 +1,107 @@
+:root{
+    --card-color: rgba(54, 0, 204, 0.555);
+    --card-header-color: crimson;
+    --card-body-color: rgb(40, 4, 124);
+    --card-footer-color: indigo;
+ }
+ .card{
+     margin: 0 auto;
+     background: rgba(54, 0, 204, 0.555);
+     color:rgb(255, 255, 255);
+     width: 70%;
+     height: 400px;
+     padding: 20px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+     border-radius: 20px; 
+                
+     
+ }
+ .card-header{
+     background: var(--card-header-color);            
+     margin: -20px;
+     padding: 20px;
+     border-radius: 20px 20px 0px 0px;
+ }
+ .card-body{
+     background: var(--card-body-color);
+     margin: -20px;
+     padding: 20px;
+     border-radius: 00px 00px 20px 20px;
+ }
+ .card-footer{
+     background: var(--card-footer-color);
+     margin: -20px;
+     padding: 20px;
+     border-radius: 00px 00px 20px 20px;
+     height: auto;
+			
+ }
+ .p1{
+     padding: 8px;
+     margin: 2px;
+     border-radius: 5px;
+     border: 1px ;
+     width: 100%;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+ }
+ .p1 a:hover{
+     color: var(--card-body-color);
+     background:white;
+ }
+ .card img{			
+    width: 300px;
+    height: 280px;
+    margin: 10px;
+    display: inline;
+    float: right;
+    border-radius: 10%;	
+    position: relative;
+    top:5px;
+    right: 20px;	
+    z-index: 1;	
+    opacity: 90%;
+}
+
+.card p{
+    height: auto;
+    width: 600px;
+    margin: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.card1{
+    margin: 0 auto;
+    background: rgba(0, 70, 223, 0.555);
+    color:rgb(255, 255, 255);
+    width: 70%;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 20px; 
+               
+}
+
+.card1 img{			
+    width: 300px;
+    height: 280px;
+    margin: 10px;
+    display: inline;
+    float: right;
+    border-radius: 10%;	
+    position: relative;
+    top:5px;
+    right: 20px;	
+    z-index: 1;	
+    opacity: 90%;
+}
+
+.card1 p{
+    height: auto;
+    width: 600px;
+    margin: 20px;
+    position: relative;
+    z-index: 2;
+}

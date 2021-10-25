@@ -5,9 +5,106 @@
   <title>Proyecto1</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">
+		body{
+			width: 100%;			
+			max-width: 100%;
+			min-width: 750px;
+			background-color: #fff;
+			overflow: scroll;
+			
+		}
+
+		.banner{			
+			display: inline-block;
+			margin: 0 auto;
+			width: 100%;
+			background-color: white;	
+			text-align:center;		
+		}
+
+		.banner p{
+			display: inline-block;
+			margin-top: 60px;
+			position: relative;
+			font-family: sans-serif;
+			font-size: 38px;
+			text-align: center;
+			max-width: 450px;
+			color: #7cb5e2;
+			font-weight: bold;
+		}
+
+
+		#img2{
+			float: left;
+			width: 200px;
+			height: 200px;
+			margin: 0;
+		}
+		#img1{
+			float: right;
+			width: 200px;
+			height: 200px;
+			margin: 0;
+		}
+
+		.menu{
+			display: block;
+			width: 100%;
+			background-color: black;
+			border-top: 3px white;
+			border-bottom: 3px white;
+			padding-left: 400px;
+		}
+
+		.menu ul{
+			list-style: none;	
+			align-content: left;	
+			display: inline-block;
+      
+		}
+
+		.menu li{
+			align-content: center;
+			text-align: center; 
+			display: inline-block;
+			width: 310px;
+			height: 28px;
+			background-color: black;	
+			font-size: 16px;
+			margin-left: 50px;
+      
+		}
+
+		.menu li:hover{   
+			display: inline-block;			
+	        font-size: 15px;
+	        background-color: #262929;
+	        	
+	        text-align: center;
+			width: 310px;
+			height: 28px;   	
+	    }
+
+		.menu a{			
+			color: white;
+			font-family: 'Baloo Tamma 2';
+			text-decoration: none;
+		}
+
+		@font-face{
+			font-family: 'Baloo Tamma 2';
+			src: url(Fuentes/BalooTamma2-Medium.ttf) format('truetype');
+		}
+    
+    
+	</style>
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+  </app-root>
 </body>
 </html>
